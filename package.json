@@ -1,0 +1,27 @@
+{
+  "name": "wefox",
+  "version": "0.0.0",
+  "description": "A little app to answer the Wefox challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=text mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterloggie/wefox.git"
+  },
+  "author": "Peter Loggie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterloggie/wefox/issues"
+  },
+  "homepage": "https://github.com/peterloggie/wefox#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.2"
+  }
+}
