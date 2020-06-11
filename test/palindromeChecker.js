@@ -1,8 +1,5 @@
 const chai = require("chai");
-const sinon = require("sinon");
-
-const expect = chai.expect,
-      assert = chai.assert;
+const expect = chai.expect;
 
 const palindromeChecker = require("../app/palindromeChecker.js");
 
