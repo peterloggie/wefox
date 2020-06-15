@@ -25,10 +25,10 @@ describe("Random Number generator", function() {
             var generator = new RandomNumbersGenerator();
 
             sinon.stub(generator, "numbers").value(
-                [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+                [22, 24, 26, 28, 10, 12, 14, 16, 18, 20]
             )
 
-            expect(generator.getLowestNumber()).to.equal(2)
+            expect(generator.getLowestNumber()).to.equal(10)
         })
 
         it("should return the nth smallest number", function() {
